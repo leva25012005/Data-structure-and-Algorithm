@@ -1,0 +1,1320 @@
+[
+  {
+    "questionFrontendId": "7",
+    "title": "Reverse Integer",
+    "titleSlug": "reverse-integer",
+    "difficulty": "Medium",
+    "acRate": 30.660624655042056,
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math"
+      }
+    ],
+    "similarQuestions": [
+      {
+        "title": "String to Integer (atoi)",
+        "titleSlug": "string-to-integer-atoi",
+        "difficulty": "Medium"
+      },
+      {
+        "title": "Reverse Bits",
+        "titleSlug": "reverse-bits",
+        "difficulty": "Easy"
+      },
+      {
+        "title": "A Number After a Double Reversal",
+        "titleSlug": "a-number-after-a-double-reversal",
+        "difficulty": "Easy"
+      },
+      {
+        "title": "Count Number of Distinct Integers After Reverse Operations",
+        "titleSlug": "count-number-of-distinct-integers-after-reverse-operations",
+        "difficulty": "Medium"
+      }
+    ],
+    "companies": [
+      {
+        "name": "Accenture",
+        "frequency": 75.0
+      },
+      {
+        "name": "Adobe",
+        "frequency": 74.3
+      },
+      {
+        "name": "Amazon",
+        "frequency": 65.3
+      },
+      {
+        "name": "Apple",
+        "frequency": 71.6
+      },
+      {
+        "name": "Bloomberg",
+        "frequency": 72.7
+      },
+      {
+        "name": "Cognizant",
+        "frequency": 66.5
+      },
+      {
+        "name": "Deloitte",
+        "frequency": 69.7
+      },
+      {
+        "name": "EPAM Systems",
+        "frequency": 56.5
+      },
+      {
+        "name": "Infosys",
+        "frequency": 62.1
+      },
+      {
+        "name": "Intel",
+        "frequency": 69.6
+      },
+      {
+        "name": "LTI",
+        "frequency": 88.8
+      },
+      {
+        "name": "Meta",
+        "frequency": 49.4
+      },
+      {
+        "name": "Microsoft",
+        "frequency": 62.5
+      },
+      {
+        "name": "Nvidia",
+        "frequency": 47.7
+      },
+      {
+        "name": "Qualcomm",
+        "frequency": 56.6
+      },
+      {
+        "name": "Samsung",
+        "frequency": 44.4
+      },
+      {
+        "name": "tcs",
+        "frequency": 59.9
+      },
+      {
+        "name": "Tech Mahindra",
+        "frequency": 88.9
+      },
+      {
+        "name": "Uber",
+        "frequency": 53.3
+      },
+      {
+        "name": "Wipro",
+        "frequency": 82.8
+      },
+      {
+        "name": "Yahoo",
+        "frequency": 51.6
+      },
+      {
+        "name": "Yandex",
+        "frequency": 35.9
+      }
+    ]
+  },
+  {
+    "questionFrontendId": "9",
+    "title": "Palindrome Number",
+    "titleSlug": "palindrome-number",
+    "difficulty": "Easy",
+    "acRate": 59.54611945565471,
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math"
+      }
+    ],
+    "similarQuestions": [
+      {
+        "title": "Palindrome Linked List",
+        "titleSlug": "palindrome-linked-list",
+        "difficulty": "Easy"
+      },
+      {
+        "title": "Find Palindrome With Fixed Length",
+        "titleSlug": "find-palindrome-with-fixed-length",
+        "difficulty": "Medium"
+      },
+      {
+        "title": "Strictly Palindromic Number",
+        "titleSlug": "strictly-palindromic-number",
+        "difficulty": "Medium"
+      },
+      {
+        "title": "  Count Symmetric Integers",
+        "titleSlug": "count-symmetric-integers",
+        "difficulty": "Easy"
+      },
+      {
+        "title": "Find the Count of Good Integers",
+        "titleSlug": "find-the-count-of-good-integers",
+        "difficulty": "Hard"
+      },
+      {
+        "title": "Find the Largest Palindrome Divisible by K",
+        "titleSlug": "find-the-largest-palindrome-divisible-by-k",
+        "difficulty": "Hard"
+      }
+    ],
+    "companies": [
+      {
+        "name": "Accenture",
+        "frequency": 85.8
+      },
+      {
+        "name": "Adobe",
+        "frequency": 68.6
+      },
+      {
+        "name": "Amazon",
+        "frequency": 66.9
+      },
+      {
+        "name": "Apple",
+        "frequency": 68.0
+      },
+      {
+        "name": "Bloomberg",
+        "frequency": 74.5
+      },
+      {
+        "name": "Capgemini",
+        "frequency": 67.1
+      },
+      {
+        "name": "Capital One",
+        "frequency": 54.8
+      },
+      {
+        "name": "Cognizant",
+        "frequency": 100.0
+      },
+      {
+        "name": "Deloitte",
+        "frequency": 76.9
+      },
+      {
+        "name": "EPAM Systems",
+        "frequency": 66.8
+      },
+      {
+        "name": "FPT",
+        "frequency": 66.6
+      },
+      {
+        "name": "Garmin",
+        "frequency": 89.2
+      },
+      {
+        "name": "HCL",
+        "frequency": 75.5
+      },
+      {
+        "name": "IBM",
+        "frequency": 44.1
+      },
+      {
+        "name": "Infosys",
+        "frequency": 76.7
+      },
+      {
+        "name": "Intel",
+        "frequency": 59.5
+      },
+      {
+        "name": "J.P. Morgan",
+        "frequency": 36.3
+      },
+      {
+        "name": "Meta",
+        "frequency": 57.0
+      },
+      {
+        "name": "Microsoft",
+        "frequency": 67.5
+      },
+      {
+        "name": "Oracle",
+        "frequency": 39.7
+      },
+      {
+        "name": "persistent systems",
+        "frequency": 73.2
+      },
+      {
+        "name": "Qualcomm",
+        "frequency": 66.9
+      },
+      {
+        "name": "Roche",
+        "frequency": 100.0
+      },
+      {
+        "name": "Samsung",
+        "frequency": 61.0
+      },
+      {
+        "name": "tcs",
+        "frequency": 76.6
+      },
+      {
+        "name": "Uber",
+        "frequency": 47.3
+      },
+      {
+        "name": "Visa",
+        "frequency": 42.9
+      },
+      {
+        "name": "Walmart Labs",
+        "frequency": 36.8
+      },
+      {
+        "name": "Wipro",
+        "frequency": 70.1
+      },
+      {
+        "name": "Yahoo",
+        "frequency": 62.9
+      },
+      {
+        "name": "Yandex",
+        "frequency": 35.9
+      },
+      {
+        "name": "Zoho",
+        "frequency": 52.5
+      }
+    ]
+  },
+  {
+    "questionFrontendId": "172",
+    "title": "Factorial Trailing Zeroes",
+    "titleSlug": "factorial-trailing-zeroes",
+    "difficulty": "Medium",
+    "acRate": 45.15802472570357,
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math"
+      }
+    ],
+    "similarQuestions": [
+      {
+        "title": "Number of Digit One",
+        "titleSlug": "number-of-digit-one",
+        "difficulty": "Hard"
+      },
+      {
+        "title": "Preimage Size of Factorial Zeroes Function",
+        "titleSlug": "preimage-size-of-factorial-zeroes-function",
+        "difficulty": "Hard"
+      },
+      {
+        "title": "Abbreviating the Product of a Range",
+        "titleSlug": "abbreviating-the-product-of-a-range",
+        "difficulty": "Hard"
+      },
+      {
+        "title": "Maximum Trailing Zeros in a Cornered Path",
+        "titleSlug": "maximum-trailing-zeros-in-a-cornered-path",
+        "difficulty": "Medium"
+      }
+    ],
+    "companies": [
+      {
+        "name": "Google",
+        "frequency": 20.8
+      }
+    ]
+  },
+  {
+    "questionFrontendId": "263",
+    "title": "Ugly Number",
+    "titleSlug": "ugly-number",
+    "difficulty": "Easy",
+    "acRate": 42.505788752134336,
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math"
+      }
+    ],
+    "similarQuestions": [
+      {
+        "title": "Happy Number",
+        "titleSlug": "happy-number",
+        "difficulty": "Easy"
+      },
+      {
+        "title": "Count Primes",
+        "titleSlug": "count-primes",
+        "difficulty": "Medium"
+      },
+      {
+        "title": "Ugly Number II",
+        "titleSlug": "ugly-number-ii",
+        "difficulty": "Medium"
+      }
+    ],
+    "companies": [
+      {
+        "name": "J.P. Morgan",
+        "frequency": 36.3
+      }
+    ]
+  },
+  {
+    "questionFrontendId": "492",
+    "title": "Construct the Rectangle",
+    "titleSlug": "construct-the-rectangle",
+    "difficulty": "Easy",
+    "acRate": 61.33827777663955,
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math"
+      }
+    ],
+    "similarQuestions": []
+  },
+  {
+    "questionFrontendId": "507",
+    "title": "Perfect Number",
+    "titleSlug": "perfect-number",
+    "difficulty": "Easy",
+    "acRate": 45.718830037668425,
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math"
+      }
+    ],
+    "similarQuestions": [
+      {
+        "title": "Self Dividing Numbers",
+        "titleSlug": "self-dividing-numbers",
+        "difficulty": "Easy"
+      }
+    ],
+    "companies": [
+      {
+        "name": "Accenture",
+        "frequency": 48.3
+      },
+      {
+        "name": "Grammarly",
+        "frequency": 76.5
+      }
+    ]
+  },
+  {
+    "questionFrontendId": "660",
+    "title": "Remove 9",
+    "titleSlug": "remove-9",
+    "difficulty": "Hard",
+    "acRate": 57.37688028023903,
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math"
+      }
+    ],
+    "similarQuestions": [],
+    "companies": [
+      {
+        "name": "Houzz",
+        "frequency": 100.0
+      }
+    ]
+  },
+  {
+    "questionFrontendId": "728",
+    "title": "Self Dividing Numbers",
+    "titleSlug": "self-dividing-numbers",
+    "difficulty": "Easy",
+    "acRate": 79.80317185159991,
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math"
+      }
+    ],
+    "similarQuestions": [
+      {
+        "title": "Perfect Number",
+        "titleSlug": "perfect-number",
+        "difficulty": "Easy"
+      },
+      {
+        "title": "Check if Number Has Equal Digit Count and Digit Value",
+        "titleSlug": "check-if-number-has-equal-digit-count-and-digit-value",
+        "difficulty": "Easy"
+      },
+      {
+        "title": "Count the Digits That Divide a Number",
+        "titleSlug": "count-the-digits-that-divide-a-number",
+        "difficulty": "Easy"
+      }
+    ],
+    "companies": [
+      {
+        "name": "Epic Systems",
+        "frequency": 89.3
+      }
+    ]
+  },
+  {
+    "questionFrontendId": "780",
+    "title": "Reaching Points",
+    "titleSlug": "reaching-points",
+    "difficulty": "Hard",
+    "acRate": 33.82256682847541,
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math"
+      }
+    ],
+    "similarQuestions": [
+      {
+        "title": "Number of Ways to Reach a Position After Exactly k Steps",
+        "titleSlug": "number-of-ways-to-reach-a-position-after-exactly-k-steps",
+        "difficulty": "Medium"
+      },
+      {
+        "title": "Check if Point Is Reachable",
+        "titleSlug": "check-if-point-is-reachable",
+        "difficulty": "Hard"
+      },
+      {
+        "title": "Determine if a Cell Is Reachable at a Given Time",
+        "titleSlug": "determine-if-a-cell-is-reachable-at-a-given-time",
+        "difficulty": "Medium"
+      }
+    ],
+    "companies": [
+      {
+        "name": "Cloudflare",
+        "frequency": 84.3
+      },
+      {
+        "name": "Coursera",
+        "frequency": 97.8
+      },
+      {
+        "name": "Docusign",
+        "frequency": 77.0
+      },
+      {
+        "name": "J.P. Morgan",
+        "frequency": 96.5
+      },
+      {
+        "name": "KLA",
+        "frequency": 80.3
+      },
+      {
+        "name": "Wayfair",
+        "frequency": 63.4
+      },
+      {
+        "name": "Workday",
+        "frequency": 88.0
+      }
+    ]
+  },
+  {
+    "questionFrontendId": "1017",
+    "title": "Convert to Base -2",
+    "titleSlug": "convert-to-base-2",
+    "difficulty": "Medium",
+    "acRate": 61.42047289297119,
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math"
+      }
+    ],
+    "similarQuestions": [
+      {
+        "title": "Encode Number",
+        "titleSlug": "encode-number",
+        "difficulty": "Medium"
+      },
+      {
+        "title": "Convert Date to Binary",
+        "titleSlug": "convert-date-to-binary",
+        "difficulty": "Easy"
+      }
+    ],
+    "companies": [
+      {
+        "name": "Airbnb",
+        "frequency": 70.4
+      }
+    ]
+  },
+  {
+    "questionFrontendId": "1056",
+    "title": "Confusing Number",
+    "titleSlug": "confusing-number",
+    "difficulty": "Easy",
+    "acRate": 49.284784226190474,
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math"
+      }
+    ],
+    "similarQuestions": [
+      {
+        "title": "Strobogrammatic Number",
+        "titleSlug": "strobogrammatic-number",
+        "difficulty": "Easy"
+      },
+      {
+        "title": "Confusing Number II",
+        "titleSlug": "confusing-number-ii",
+        "difficulty": "Hard"
+      }
+    ]
+  },
+  {
+    "questionFrontendId": "1118",
+    "title": "Number of Days in a Month",
+    "titleSlug": "number-of-days-in-a-month",
+    "difficulty": "Easy",
+    "acRate": 59.16194076874606,
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math"
+      }
+    ],
+    "similarQuestions": []
+  },
+  {
+    "questionFrontendId": "1134",
+    "title": "Armstrong Number",
+    "titleSlug": "armstrong-number",
+    "difficulty": "Easy",
+    "acRate": 77.86002818224519,
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math"
+      }
+    ],
+    "similarQuestions": []
+  },
+  {
+    "questionFrontendId": "1175",
+    "title": "Prime Arrangements",
+    "titleSlug": "prime-arrangements",
+    "difficulty": "Easy",
+    "acRate": 60.00647818240711,
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math"
+      }
+    ],
+    "similarQuestions": []
+  },
+  {
+    "questionFrontendId": "1185",
+    "title": "Day of the Week",
+    "titleSlug": "day-of-the-week",
+    "difficulty": "Easy",
+    "acRate": 58.6965727615288,
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math"
+      }
+    ],
+    "similarQuestions": []
+  },
+  {
+    "questionFrontendId": "1276",
+    "title": "Number of Burgers with No Waste of Ingredients",
+    "titleSlug": "number-of-burgers-with-no-waste-of-ingredients",
+    "difficulty": "Medium",
+    "acRate": 50.53276461191351,
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math"
+      }
+    ],
+    "similarQuestions": []
+  },
+  {
+    "questionFrontendId": "1281",
+    "title": "Subtract the Product and Sum of Digits of an Integer",
+    "titleSlug": "subtract-the-product-and-sum-of-digits-of-an-integer",
+    "difficulty": "Easy",
+    "acRate": 86.59213568654499,
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math"
+      }
+    ],
+    "similarQuestions": [],
+    "companies": [
+      {
+        "name": "Quora",
+        "frequency": 87.2
+      }
+    ]
+  },
+  {
+    "questionFrontendId": "1317",
+    "title": "Convert Integer to the Sum of Two No-Zero Integers",
+    "titleSlug": "convert-integer-to-the-sum-of-two-no-zero-integers",
+    "difficulty": "Easy",
+    "acRate": 54.261214911093056,
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math"
+      }
+    ],
+    "similarQuestions": [],
+    "companies": [
+      {
+        "name": "Hudson River Trading",
+        "frequency": 97.8
+      }
+    ]
+  },
+  {
+    "questionFrontendId": "1344",
+    "title": "Angle Between Hands of a Clock",
+    "titleSlug": "angle-between-hands-of-a-clock",
+    "difficulty": "Medium",
+    "acRate": 64.29038159958182,
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math"
+      }
+    ],
+    "similarQuestions": [],
+    "companies": [
+      {
+        "name": "Epic Systems",
+        "frequency": 65.3
+      },
+      {
+        "name": "Siemens",
+        "frequency": 60.4
+      },
+      {
+        "name": "UKG",
+        "frequency": 63.3
+      }
+    ]
+  },
+  {
+    "questionFrontendId": "1362",
+    "title": "Closest Divisors",
+    "titleSlug": "closest-divisors",
+    "difficulty": "Medium",
+    "acRate": 61.56483718789553,
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math"
+      }
+    ],
+    "similarQuestions": [
+      {
+        "title": "Distinct Prime Factors of Product of Array",
+        "titleSlug": "distinct-prime-factors-of-product-of-array",
+        "difficulty": "Medium"
+      }
+    ]
+  },
+  {
+    "questionFrontendId": "1523",
+    "title": "Count Odd Numbers in an Interval Range",
+    "titleSlug": "count-odd-numbers-in-an-interval-range",
+    "difficulty": "Easy",
+    "acRate": 50.6651732918874,
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math"
+      }
+    ],
+    "similarQuestions": [
+      {
+        "title": "Check if Bitwise OR Has Trailing Zeros",
+        "titleSlug": "check-if-bitwise-or-has-trailing-zeros",
+        "difficulty": "Easy"
+      }
+    ]
+  },
+  {
+    "questionFrontendId": "1551",
+    "title": "Minimum Operations to Make Array Equal",
+    "titleSlug": "minimum-operations-to-make-array-equal",
+    "difficulty": "Medium",
+    "acRate": 82.43370824939228,
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math"
+      }
+    ],
+    "similarQuestions": [
+      {
+        "title": "Minimum Number of Operations to Make Arrays Similar",
+        "titleSlug": "minimum-number-of-operations-to-make-arrays-similar",
+        "difficulty": "Hard"
+      },
+      {
+        "title": "Minimum Operations to Make Array Equal II",
+        "titleSlug": "minimum-operations-to-make-array-equal-ii",
+        "difficulty": "Medium"
+      }
+    ]
+  },
+  {
+    "questionFrontendId": "1716",
+    "title": "Calculate Money in Leetcode Bank",
+    "titleSlug": "calculate-money-in-leetcode-bank",
+    "difficulty": "Easy",
+    "acRate": 78.58483408537316,
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math"
+      }
+    ],
+    "similarQuestions": [
+      {
+        "title": "Distribute Money to Maximum Children",
+        "titleSlug": "distribute-money-to-maximum-children",
+        "difficulty": "Easy"
+      }
+    ]
+  },
+  {
+    "questionFrontendId": "1780",
+    "title": "Check if Number is a Sum of Powers of Three",
+    "titleSlug": "check-if-number-is-a-sum-of-powers-of-three",
+    "difficulty": "Medium",
+    "acRate": 79.32947318462269,
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math"
+      }
+    ],
+    "similarQuestions": [
+      {
+        "title": "Power of Three",
+        "titleSlug": "power-of-three",
+        "difficulty": "Easy"
+      }
+    ]
+  },
+  {
+    "questionFrontendId": "1837",
+    "title": "Sum of Digits in Base K",
+    "titleSlug": "sum-of-digits-in-base-k",
+    "difficulty": "Easy",
+    "acRate": 78.21926910299003,
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math"
+      }
+    ],
+    "similarQuestions": [
+      {
+        "title": "  Count Symmetric Integers",
+        "titleSlug": "count-symmetric-integers",
+        "difficulty": "Easy"
+      }
+    ]
+  },
+  {
+    "questionFrontendId": "2117",
+    "title": "Abbreviating the Product of a Range",
+    "titleSlug": "abbreviating-the-product-of-a-range",
+    "difficulty": "Hard",
+    "acRate": 24.375647370238234,
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math"
+      }
+    ],
+    "similarQuestions": [
+      {
+        "title": "Factorial Trailing Zeroes",
+        "titleSlug": "factorial-trailing-zeroes",
+        "difficulty": "Medium"
+      },
+      {
+        "title": "Maximum Trailing Zeros in a Cornered Path",
+        "titleSlug": "maximum-trailing-zeros-in-a-cornered-path",
+        "difficulty": "Medium"
+      },
+      {
+        "title": "Find All Good Indices",
+        "titleSlug": "find-all-good-indices",
+        "difficulty": "Medium"
+      }
+    ],
+    "companies": [
+      {
+        "name": "Avalara",
+        "frequency": 100.0
+      }
+    ]
+  },
+  {
+    "questionFrontendId": "2119",
+    "title": "A Number After a Double Reversal",
+    "titleSlug": "a-number-after-a-double-reversal",
+    "difficulty": "Easy",
+    "acRate": 81.41829111634927,
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math"
+      }
+    ],
+    "similarQuestions": [
+      {
+        "title": "Reverse Integer",
+        "titleSlug": "reverse-integer",
+        "difficulty": "Medium"
+      },
+      {
+        "title": "Reverse Bits",
+        "titleSlug": "reverse-bits",
+        "difficulty": "Easy"
+      }
+    ]
+  },
+  {
+    "questionFrontendId": "2198",
+    "title": "Number of Single Divisor Triplets",
+    "titleSlug": "number-of-single-divisor-triplets",
+    "difficulty": "Medium",
+    "acRate": 54.32282003710576,
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math"
+      }
+    ],
+    "similarQuestions": [
+      {
+        "title": "Count Array Pairs Divisible by K",
+        "titleSlug": "count-array-pairs-divisible-by-k",
+        "difficulty": "Hard"
+      }
+    ]
+  },
+  {
+    "questionFrontendId": "2235",
+    "title": "Add Two Integers",
+    "titleSlug": "add-two-integers",
+    "difficulty": "Easy",
+    "acRate": 87.9730669636773,
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math"
+      }
+    ],
+    "similarQuestions": [],
+    "companies": [
+      {
+        "name": "Atlassian",
+        "frequency": 30.0
+      },
+      {
+        "name": "Jane Street",
+        "frequency": 76.5
+      }
+    ]
+  },
+  {
+    "questionFrontendId": "2469",
+    "title": "Convert the Temperature",
+    "titleSlug": "convert-the-temperature",
+    "difficulty": "Easy",
+    "acRate": 90.19642248898155,
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math"
+      }
+    ],
+    "similarQuestions": [
+      {
+        "title": "Smallest Even Multiple",
+        "titleSlug": "smallest-even-multiple",
+        "difficulty": "Easy"
+      }
+    ]
+  },
+  {
+    "questionFrontendId": "2520",
+    "title": "Count the Digits That Divide a Number",
+    "titleSlug": "count-the-digits-that-divide-a-number",
+    "difficulty": "Easy",
+    "acRate": 85.8505347332835,
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math"
+      }
+    ],
+    "similarQuestions": [
+      {
+        "title": "Happy Number",
+        "titleSlug": "happy-number",
+        "difficulty": "Easy"
+      },
+      {
+        "title": "Self Dividing Numbers",
+        "titleSlug": "self-dividing-numbers",
+        "difficulty": "Easy"
+      }
+    ],
+    "companies": [
+      {
+        "name": "tcs",
+        "frequency": 59.9
+      }
+    ]
+  },
+  {
+    "questionFrontendId": "2525",
+    "title": "Categorize Box According to Criteria",
+    "titleSlug": "categorize-box-according-to-criteria",
+    "difficulty": "Easy",
+    "acRate": 37.92187062209732,
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math"
+      }
+    ],
+    "similarQuestions": [
+      {
+        "title": "Fizz Buzz",
+        "titleSlug": "fizz-buzz",
+        "difficulty": "Easy"
+      },
+      {
+        "title": "Find Winner on a Tic Tac Toe Game",
+        "titleSlug": "find-winner-on-a-tic-tac-toe-game",
+        "difficulty": "Easy"
+      },
+      {
+        "title": "Best Poker Hand",
+        "titleSlug": "best-poker-hand",
+        "difficulty": "Easy"
+      }
+    ],
+    "companies": [
+      {
+        "name": "Zendesk",
+        "frequency": 100.0
+      }
+    ]
+  },
+  {
+    "questionFrontendId": "2544",
+    "title": "Alternating Digit Sum",
+    "titleSlug": "alternating-digit-sum",
+    "difficulty": "Easy",
+    "acRate": 68.45285508540717,
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math"
+      }
+    ],
+    "similarQuestions": [
+      {
+        "title": "Add Digits",
+        "titleSlug": "add-digits",
+        "difficulty": "Easy"
+      },
+      {
+        "title": "Minimum Sum of Four Digit Number After Splitting Digits",
+        "titleSlug": "minimum-sum-of-four-digit-number-after-splitting-digits",
+        "difficulty": "Easy"
+      },
+      {
+        "title": "Separate the Digits in an Array",
+        "titleSlug": "separate-the-digits-in-an-array",
+        "difficulty": "Easy"
+      }
+    ],
+    "companies": [
+      {
+        "name": "eBay",
+        "frequency": 95.1
+      }
+    ]
+  },
+  {
+    "questionFrontendId": "2579",
+    "title": "Count Total Number of Colored Cells",
+    "titleSlug": "count-total-number-of-colored-cells",
+    "difficulty": "Medium",
+    "acRate": 66.15485426023736,
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math"
+      }
+    ],
+    "similarQuestions": [
+      {
+        "title": "Minimum Cuts to Divide a Circle",
+        "titleSlug": "minimum-cuts-to-divide-a-circle",
+        "difficulty": "Easy"
+      }
+    ]
+  },
+  {
+    "questionFrontendId": "2651",
+    "title": "Calculate Delayed Arrival Time",
+    "titleSlug": "calculate-delayed-arrival-time",
+    "difficulty": "Easy",
+    "acRate": 76.20841055730101,
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math"
+      }
+    ],
+    "similarQuestions": []
+  },
+  {
+    "questionFrontendId": "2652",
+    "title": "Sum Multiples",
+    "titleSlug": "sum-multiples",
+    "difficulty": "Easy",
+    "acRate": 85.50319252513407,
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math"
+      }
+    ],
+    "similarQuestions": []
+  },
+  {
+    "questionFrontendId": "2769",
+    "title": "Find the Maximum Achievable Number",
+    "titleSlug": "find-the-maximum-achievable-number",
+    "difficulty": "Easy",
+    "acRate": 91.02863463192823,
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math"
+      }
+    ],
+    "similarQuestions": []
+  },
+  {
+    "questionFrontendId": "2806",
+    "title": "Account Balance After Rounded Purchase",
+    "titleSlug": "account-balance-after-rounded-purchase",
+    "difficulty": "Easy",
+    "acRate": 55.278672825035166,
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math"
+      }
+    ],
+    "similarQuestions": []
+  },
+  {
+    "questionFrontendId": "2849",
+    "title": "Determine if a Cell Is Reachable at a Given Time",
+    "titleSlug": "determine-if-a-cell-is-reachable-at-a-given-time",
+    "difficulty": "Medium",
+    "acRate": 37.147277608147704,
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math"
+      }
+    ],
+    "similarQuestions": [
+      {
+        "title": "Reaching Points",
+        "titleSlug": "reaching-points",
+        "difficulty": "Hard"
+      }
+    ]
+  },
+  {
+    "questionFrontendId": "2894",
+    "title": "Divisible and Non-divisible Sums Difference",
+    "titleSlug": "divisible-and-non-divisible-sums-difference",
+    "difficulty": "Easy",
+    "acRate": 91.22660564574474,
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math"
+      }
+    ],
+    "similarQuestions": []
+  },
+  {
+    "questionFrontendId": "3021",
+    "title": "Alice and Bob Playing Flower Game",
+    "titleSlug": "alice-and-bob-playing-flower-game",
+    "difficulty": "Medium",
+    "acRate": 46.10307598288857,
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math"
+      }
+    ],
+    "similarQuestions": [],
+    "companies": [
+      {
+        "name": "Rubrik",
+        "frequency": 62.6
+      }
+    ]
+  },
+  {
+    "questionFrontendId": "3099",
+    "title": "Harshad Number",
+    "titleSlug": "harshad-number",
+    "difficulty": "Easy",
+    "acRate": 83.2582068991369,
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math"
+      }
+    ],
+    "similarQuestions": []
+  },
+  {
+    "questionFrontendId": "3270",
+    "title": "Find the Key of the Numbers",
+    "titleSlug": "find-the-key-of-the-numbers",
+    "difficulty": "Easy",
+    "acRate": 76.05691184305368,
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math"
+      }
+    ],
+    "similarQuestions": [
+      {
+        "title": "Largest Number",
+        "titleSlug": "largest-number",
+        "difficulty": "Medium"
+      }
+    ]
+  },
+  {
+    "questionFrontendId": "3492",
+    "title": "Maximum Containers on a Ship",
+    "titleSlug": "maximum-containers-on-a-ship",
+    "difficulty": "Easy",
+    "acRate": 74.73420362021398,
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math"
+      }
+    ],
+    "similarQuestions": []
+  },
+  {
+    "questionFrontendId": "3516",
+    "title": "Find Closest Person",
+    "titleSlug": "find-closest-person",
+    "difficulty": "Easy",
+    "acRate": 83.30539549502357,
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math"
+      }
+    ],
+    "similarQuestions": []
+  },
+  {
+    "questionFrontendId": "3560",
+    "title": "Find Minimum Log Transportation Cost",
+    "titleSlug": "find-minimum-log-transportation-cost",
+    "difficulty": "Easy",
+    "acRate": 41.52713424309743,
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math"
+      }
+    ],
+    "similarQuestions": []
+  },
+  {
+    "questionFrontendId": "3609",
+    "title": "Minimum Moves to Reach Target in Grid",
+    "titleSlug": "minimum-moves-to-reach-target-in-grid",
+    "difficulty": "Hard",
+    "acRate": 13.606278366111951,
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math"
+      }
+    ],
+    "similarQuestions": []
+  },
+  {
+    "questionFrontendId": "3622",
+    "title": "Check Divisibility by Digit Sum and Product",
+    "titleSlug": "check-divisibility-by-digit-sum-and-product",
+    "difficulty": "Easy",
+    "acRate": 64.05685798976018,
+    "topicTags": [
+      {
+        "name": "Math",
+        "slug": "math"
+      }
+    ],
+    "similarQuestions": []
+  }
+]
