@@ -2,7 +2,7 @@
 
 # 🧠 [7. Reverse Integer](https://leetcode.com/problems/reverse-integer/)
 
-[![LeetCode](<https://img.shields.io/badge/LeetCode-Problem%207-FFA116?style=for-the-badge&logo=leetcode&logoColor=white>)](https://leetcode.com/problems/reverse-integer/)
+[![LeetCode](https://img.shields.io/badge/LeetCode-Problem%207-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/problems/reverse-integer/)
 
 </div>
 
@@ -10,48 +10,50 @@
 
 ## 📋 Problem Overview
 
-| Property | Value |
-|----------|-------|
-| **Difficulty** | 🟡 **Medium** |
-| **Acceptance Rate** | `30.7%` |
-| **Problem Link** | [Open in LeetCode](https://leetcode.com/problems/reverse-integer/) |
-| **Category** | `1.Math` |
+| Property            | Value                                                              |
+| ------------------- | ------------------------------------------------------------------ |
+| **Difficulty**      | 🟡 **Medium**                                                      |
+| **Acceptance Rate** | `30.7%`                                                            |
+| **Problem Link**    | [Open in LeetCode](https://leetcode.com/problems/reverse-integer/) |
+| **Category**        | `1.Math`                                                           |
 
 ## ⏰ Progress Tracking
 
-| Status | Date | Notes |
-|--------|------|-------|
-| 🎯 **Attempted** | `YYYY-MM-DD` | First attempt, understanding the problem |
-| ✅ **Solved** | `YYYY-MM-DD` | Successfully implemented solution |
-| 🔄 **Review 1** | `YYYY-MM-DD` | First review, optimization |
-| 🔄 **Review 2** | `YYYY-MM-DD` | Second review, different approaches |
-| 🔄 **Review 3** | `YYYY-MM-DD` | Final review, mastery |
+| Status           | Date         | Notes                                    |
+| ---------------- | ------------ | ---------------------------------------- |
+| 🎯 **Attempted** | `2025-09-02` | First attempt, understanding the problem |
+| ✅ **Solved**    | `2025-09-02` | Successfully implemented solution        |
+| 🔄 **Review 1**  | `YYYY-MM-DD` | First review, optimization               |
+| 🔄 **Review 2**  | `YYYY-MM-DD` | Second review, different approaches      |
+| 🔄 **Review 3**  | `YYYY-MM-DD` | Final review, mastery                    |
 
 ## 🏷️ Topics & Tags
 
 <div align="center">
 
-![Math](https://img.shields.io/badge/-Math-blue?style=flat-square) 
+![Math](https://img.shields.io/badge/-Math-blue?style=flat-square)
 
 </div>
 
 ## 🔗 Related Problems
 
-| Problem | Difficulty | Relationship |
-|---------|------------|-------------|
-| [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | 🟡 **Medium** | Similar logic |
-| [Reverse Bits](https://leetcode.com/problems/reverse-bits/) | 🟢 **Easy** | Related concept |
-| [A Number After a Double Reversal](https://leetcode.com/problems/a-number-after-a-double-reversal/) | 🟢 **Easy** | Related concept |
+| Problem                                                                                                                                                 | Difficulty    | Relationship    |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- | --------------- |
+| [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)                                                                       | 🟡 **Medium** | Similar logic   |
+| [Reverse Bits](https://leetcode.com/problems/reverse-bits/)                                                                                             | 🟢 **Easy**   | Related concept |
+| [A Number After a Double Reversal](https://leetcode.com/problems/a-number-after-a-double-reversal/)                                                     | 🟢 **Easy**   | Related concept |
 | [Count Number of Distinct Integers After Reverse Operations](https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations/) | 🟡 **Medium** | Related concept |
 
 ## 🏢 Companies Asked (Frequency)
 
 ### 🔥 High Frequency (80%+)
+
 - **Tech Mahindra** 🔥 88.9%
 - **LTI** 🔥 88.8%
 - **Wipro** 🔥 82.8%
 
 ### ⭐ Medium Frequency (60-79%)
+
 - **Accenture** ⭐ 75.0%
 - **Adobe** ⭐ 74.3%
 - **Bloomberg** ⭐ 72.7%
@@ -64,6 +66,7 @@
 - **Infosys** ⭐ 62.1%
 
 ### 📈 Regular Frequency (40-59%)
+
 - **tcs** 📈 59.9%
 - **Qualcomm** 📈 56.6%
 - **EPAM Systems** 📈 56.5%
@@ -87,12 +90,27 @@
 ### 🥉 Approach 1: Brute Force
 
 #### 📝 Intuition
-> Mô tả ý tưởng đơn giản nhất để giải quyết bài toán
+
+> We can build the reverse interger one digit at a time, while we canm check beforehamd **whether or not appending another digit would cause overflow**
 
 #### 🔍 Algorithm
-1. **Step 1:** Mô tả bước đầu tiên
-2. **Step 2:** Mô tả bước thứ hai
-3. **Step 3:** Mô tả bước cuối cùng
+
+1. **Step 1:** **Initialize variables**
+   - Set `reverse_number = 0`.
+   - While `x != 0`, extract the last digit:  
+      -`digit = x % 10`
+     - Update `x = x / 10`.
+2. **Step 2:** **Check for overflow**
+   - Before updating `reverse_number`, check:
+     - If `reverse_number > INT_MAX / 10`  
+       or (`reverse_number == INT_MAX / 10` and `digit > 7`) → return `0`.
+     - If `reverse_number < INT_MIN / 10`  
+       or (`reverse_number == INT_MIN / 10` and `digit < -8`) → return `0`.
+3. **Step 3:** **Update result**
+   - If safe, compute:
+     - `reverse_number = reverse_number * 10 + digit`.
+   - Repeat until `x == 0`.
+   - Return `reverse_number
 
 #### 💻 Implementation
 
@@ -100,100 +118,69 @@
 // Brute force approach
 //
 // Args:
-//   nums: Input parameter
+//   x: The integer input that will be reversed.
+//      Can be positive, negative, or zero.
 //
 // Returns:
-//   Result
+//   The reversed integer if it fits in 32-bit signed range.
+//   If the reversed value overflows (outside [-2^31, 2^31 - 1]),
+//   the function returns 0.
 
 class Solution {
 public:
-    int solutionBruteForce(vector<int>& nums) {
-        // Implementation here
-        return 0;
+    int reverse(int x) {
+        int reverse_number = 0;
+        while(x != 0) {
+            int digit = x % 10;
+            x /= 10;
+
+            // Check for overflow BEFORE multiplying
+            if (reverse_number > INT_MAX / 10 ||
+                (reverse_number == INT_MAX / 10 && digit > 7)) {
+                return 0; // Positive overflow
+            }
+            if (reverse_number < INT_MIN / 10 ||
+                (reverse_number == INT_MIN / 10 && digit < -8)) {
+                return 0; // Negative overflow
+            }
+
+             reverse_number = reverse_number * 10 + digit;
+        }
+        return reverse_number;
     }
 };
 ```
 
 #### 📊 Complexity Analysis
-- **Time Complexity:** `O(?)` - Giải thích
-- **Space Complexity:** `O(?)` - Giải thích
+
+- **Time Complexity:** `O(log₁₀(n))`
+  - Because we process each digit of `x` once.
+  - For a 32-bit integer, the maximum number of digits is 10 → so it's effectively constant time, but formally `O(log n)`.
+- **Space Complexity:** `O(1)`
+  - We only use a few integer variables (`reverse_number`, `digit`), no extra data structures.
 
 #### ⚠️ Pros & Cons
-- ✅ **Pros:** Đơn giản, dễ hiểu
-- ❌ **Cons:** Hiệu suất thấp
 
-### 🥈 Approach 2: Optimized Solution
+- ✅ **Pros:**
 
-#### 📝 Intuition
-> Mô tả cách tối ưu hóa từ approach đầu tiên
+  - Simple, easy to implement
+  - Constant extra space
+  - Works directly with integer math (no need for string conversion)
 
-#### 🔍 Algorithm
-1. **Step 1:** Bước cải tiến đầu tiên
-2. **Step 2:** Bước cải tiến thứ hai
-3. **Step 3:** Bước hoàn thiện
-
-#### 💻 Implementation
-
-```cpp
-// Optimized approach with better complexity
-//
-// Args:
-//   nums: Input parameter
-//
-// Returns:
-//   Result
-
-class Solution {
-public:
-    int solutionOptimized(vector<int>& nums) {
-        // Optimized implementation here
-        return 0;
-    }
-};
-```
-
-#### 📊 Complexity Analysis
-- **Time Complexity:** `O(?)` - Giải thích cải tiến
-- **Space Complexity:** `O(?)` - Giải thích cải tiến
-
-### 🥇 Approach 3: Optimal Solution ⭐
-
-#### 📝 Intuition
-> Mô tả giải pháp tốt nhất, elegant nhất
-
-#### 🔍 Algorithm
-1. **Step 1:** Bước tối ưu đầu tiên
-2. **Step 2:** Bước tối ưu thứ hai
-3. **Step 3:** Bước hoàn hảo
-
-#### 💻 Implementation
-
-```cpp
-// Most optimal and elegant solution
-//
-// Args:
-//   nums: Input parameter
-//
-// Returns:
-//   Result
-
-class Solution {
-public:
-    int solutionOptimal(vector<int>& nums) {
-        // Optimal implementation here
-        return 0;
-    }
-};
-```
-
-#### 📊 Complexity Analysis
-- **Time Complexity:** `O(?)` - Tối ưu nhất có thể
-- **Space Complexity:** `O(?)` - Tối ưu nhất có thể
+- ❌ **Cons:**
+  - Needs careful overflow handling
+  - Still limited to 32-bit signed integers
+  - Cannot be directly reused for arbitrary-length numbers
 
 #### 🎯 Why This is Optimal?
-- Lý do 1: ...
-- Lý do 2: ...
-- Lý do 3: ...
+
+- O(1) space: uses only temporary variables, no extra data structures.
+- O(log₁₀n) time: processes each digit once, which is the minimum possible.
+- Direct digit manipulation: no string or array conversion needed.
+- Overflow checked in-place: guarantees correctness within 32-bit signed range.
+- Simple and clean implementation: just a while loop with % and /.
+- No external dependencies: relies only on basic arithmetic.
+- Works for all cases: handles positive, negative, and zero inputs.
 
 ---
 
@@ -201,51 +188,77 @@ public:
 
 ```python
 # Test Case 1: Basic example
-input1 = []
-expected1 = []
+input1 = [123]
+expected1 = [321]
 assert solution_optimal(input1) == expected1
 
 # Test Case 2: Edge case
-input2 = []
-expected2 = []
+input2 = [-123]
+expected2 = [-321]
 assert solution_optimal(input2) == expected2
 
 # Test Case 3: Complex case
-input3 = []
-expected3 = []
+input3 = [120]
+expected3 = [21]
 assert solution_optimal(input3) == expected3
 ```
 
 ## 📚 Key Learnings & Notes
 
 ### 🔑 Key Insights
-- **Insight 1:** Điểm quan trọng số 1
-- **Insight 2:** Điểm quan trọng số 2
-- **Insight 3:** Điểm quan trọng số 3
+
+#### 🎯 Why This is Optimal?
+
+- **O(1) space**: uses only temporary variables, no extra data structures.
+- **O(log₁₀n) time**: processes each digit once, which is the minimum possible.
+- **Direct digit manipulation**: no string or array conversion needed.
+- **Overflow checked in-place**: guarantees correctness within 32-bit signed range.
+- **Simple and clean implementation**: just a while loop with `%` and `/`.
+- **No external dependencies**: relies only on basic arithmetic.
+- **Works for all cases**: handles positive, negative, and zero inputs.
+
+### 🔑 Key Insights
+
+- **Insight 1:** Reversing an integer can be done digit by digit using `%` and `/`.
+- **Insight 2:** Overflow must be checked _before_ multiplying and adding digits.
+- **Insight 3:** No need to convert the number to a string → faster and memory-efficient.
+- **Insight 4:** Negative numbers work naturally with the same logic.
+- **Insight 5:** The minimum time complexity is proportional to the number of digits.
 
 ### 💭 Common Mistakes to Avoid
-- ❌ **Mistake 1:** Lỗi thường gặp và cách tránh
-- ❌ **Mistake 2:** Lỗi thường gặp và cách tránh
-- ❌ **Mistake 3:** Lỗi thường gặp và cách tránh
+
+- ❌ **Mistake 1:** Checking for overflow _after_ updating the reversed number → may cause undefined behavior.
+- ❌ **Mistake 2:** Forgetting that negative numbers must also be handled.
+- ❌ **Mistake 3:** Using `abs(x)` without caution → `INT_MIN` cannot be represented as positive.
+- ❌ **Mistake 4:** Relying on `long long` and then casting down → not acceptable in strict interview settings.
+- ❌ **Mistake 5:** Converting to string unnecessarily → wastes memory and time.
 
 ### 🎯 Patterns & Techniques Used
-- **Pattern 1:** Tên pattern và ứng dụng
-- **Pattern 2:** Tên pattern và ứng dụng
-- **Technique:** Kỹ thuật đặc biệt được sử dụng
+
+- **Pattern:** Digit-by-digit decomposition (extract last digit, reduce original).
+- **Pattern:** Overflow-safe accumulation (check boundaries before operation).
+- **Technique:** Constant-space arithmetic manipulation instead of string processing.
+- **Technique:** Early termination if overflow is detected.
 
 ### 🔄 Follow-up Questions
-1. **Q:** Câu hỏi mở rộng 1?
-   **A:** Trả lời và hướng giải quyết
 
-2. **Q:** Câu hỏi mở rộng 2?
-   **A:** Trả lời và hướng giải quyết
+1. **Q:** How would you modify this if the input was a 64-bit integer instead of 32-bit?
+   **A:** Adjust the overflow boundaries to `[-2^63, 2^63 - 1]` and use `long long` in C++.
 
----
+2. **Q:** What if we wanted to reverse only the digits of a positive number, ignoring overflow?
+   **A:** Skip the overflow check logic and directly compute until `x == 0`.
+
+3. **Q:** Can you solve the same problem using string manipulation? What are the trade-offs?
+   **A:** Yes, convert `x` to a string, reverse it, and convert back. It’s simpler to implement but uses extra O(n) space and is less efficient.
+
+4. **Q:** How would you extend this logic to reverse digits in other bases (e.g., base 16)?
+   **A:** Replace `% 10` and `/ 10` with `% base` and `/ base`, adjusting overflow checks accordingly.
 
 <div align="center">
 
 **🎯 Problem 7 Completed!**
 
-*Happy Coding! 🚀*
+_Happy Coding! 🚀_
 
 </div>
+```
