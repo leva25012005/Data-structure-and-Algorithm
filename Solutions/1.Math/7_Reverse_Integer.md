@@ -17,6 +17,45 @@
 | **Problem Link**    | [Open in LeetCode](https://leetcode.com/problems/reverse-integer/) |
 | **Category**        | `1.Math`                                                           |
 
+### 📝Description
+
+<!-- description:start -->
+
+<p>Given a signed 32-bit integer <code>x</code>, return <code>x</code><em> with its digits reversed</em>. If reversing <code>x</code> causes the value to go outside the signed 32-bit integer range <code>[-2<sup>31</sup>, 2<sup>31</sup> - 1]</code>, then return <code>0</code>.</p>
+
+<p><strong>Assume the environment does not allow you to store 64-bit integers (signed or unsigned).</strong></p>
+
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
+
+<pre>
+<strong>Input:</strong> x = 123
+<strong>Output:</strong> 321
+</pre>
+
+<p><strong class="example">Example 2:</strong></p>
+
+<pre>
+<strong>Input:</strong> x = -123
+<strong>Output:</strong> -321
+</pre>
+
+<p><strong class="example">Example 3:</strong></p>
+
+<pre>
+<strong>Input:</strong> x = 120
+<strong>Output:</strong> 21
+</pre>
+
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
+
+<ul>
+	<li><code>-2<sup>31</sup> &lt;= x &lt;= 2<sup>31</sup> - 1</code></li>
+</ul>
+
+<!-- description:end -->
+
 ## ⏰ Progress Tracking
 
 | Status           | Date         | Notes                                    |
@@ -184,38 +223,7 @@ public:
 
 ---
 
-## 🧪 Test Cases
-
-```python
-# Test Case 1: Basic example
-input1 = [123]
-expected1 = [321]
-assert solution_optimal(input1) == expected1
-
-# Test Case 2: Edge case
-input2 = [-123]
-expected2 = [-321]
-assert solution_optimal(input2) == expected2
-
-# Test Case 3: Complex case
-input3 = [120]
-expected3 = [21]
-assert solution_optimal(input3) == expected3
-```
-
 ## 📚 Key Learnings & Notes
-
-### 🔑 Key Insights
-
-#### 🎯 Why This is Optimal?
-
-- **O(1) space**: uses only temporary variables, no extra data structures.
-- **O(log₁₀n) time**: processes each digit once, which is the minimum possible.
-- **Direct digit manipulation**: no string or array conversion needed.
-- **Overflow checked in-place**: guarantees correctness within 32-bit signed range.
-- **Simple and clean implementation**: just a while loop with `%` and `/`.
-- **No external dependencies**: relies only on basic arithmetic.
-- **Works for all cases**: handles positive, negative, and zero inputs.
 
 ### 🔑 Key Insights
 
